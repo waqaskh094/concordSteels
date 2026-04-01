@@ -1,18 +1,56 @@
-# React + Vite
+# Concord Steel Centre Ltd. — Marketing Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, single-page marketing website for Concord Steel Centre Ltd., a flat rolled steel processing company based in Woodbridge, Ontario.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19
+- Vite
+- Tailwind CSS v4
 
-## React Compiler
+## Project Structure
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Corporate.jsx
+│   ├── Services.jsx
+│   ├── Quality.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+├── constants/
+│   └── data.js
+├── styles/
+│   └── index.css
+└── App.jsx
 
-Note: This will impact Vite dev & build performances.
+## Getting Started
 
-## Expanding the ESLint configuration
+# Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+## Sections
+
+1. **Hero** — Full screen landing with background image and CTA buttons
+2. **Corporate** — Mission statement, CEO quote and TEAM values
+3. **Services** — Four steel processing services with specs
+4. **Quality & Safety** — ISO 9001:2015 certification and safety culture
+5. **Contact** — Contact details and Google Maps embed
+6. **Footer** — Statement footer with company info
+
+## Deployment
+
+This project is deployed on Vercel. Every push to the main branch triggers an automatic redeployment.
+
+## Client
+
+Concord Steel Centre Ltd.
+147 Ashbridge Circle, Woodbridge, Ontario, L4L 3R5
+Phone: 905-856-1717
